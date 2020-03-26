@@ -36,6 +36,14 @@ body {
 ol, ul {
 	list-style: none;
 }
+.center {
+	height: 150px;
+	border: 3px solid grey;
+	border-radius: 2cm;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 blockquote, q {
 	quotes: none;
@@ -222,6 +230,10 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.8rem;
+	}
+
+	.alt {
+		margin-left: 70px;
 	}
 
 	sub {
